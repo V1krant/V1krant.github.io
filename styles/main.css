@@ -1,0 +1,48 @@
+
+.wrapper {
+  margin: 0 auto;
+  width: 1000px;
+}
+
+.homebackground {
+  background-image: url("../imgs/kidshomepage.png");
+  background-repeat: repeat;
+  background-color:rgba(236, 236, 215, 0.808);
+  background-size: cover;
+}
+
+.blogbackground {
+  background-color:rgba(240, 240, 215, 0.884);
+}
+
+.style {
+  display: inline;
+  list-style-type: none;
+  font-family: Helvetica, Arial,  sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  padding: 15px;
+  color:rgb(82, 173, 82);
+  }
+
+.nostyle {
+/* list-style-type: none; */
+font-family: 'Shizuru', cursive;
+font-size: 100px;
+margin: 25px;
+color:rgb(82, 173, 82);
+}
+
+.centertext {
+  text-align: center;
+}
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  front-size: 16px;
+  color:brown;
+  font-display: center;
+}

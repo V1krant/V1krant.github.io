@@ -1,0 +1,72 @@
+
+.blogbackground {
+  background-image: url("../imgs/5411427.jpg");
+  background-color:rgba(240, 240, 215, 0.884);
+}
+
+.style2 {
+  display: inline;
+  list-style-type: none;
+  font-family: Helvetica, Arial,  sans-serif;
+  font-size: 50px;
+  margin: 0px;
+  padding: 15px;
+  color:rgb(82, 173, 82);
+  }
+
+/*
+.nostyle {
+list-style-type: none;
+font-family: 'Butterfly Kids', cursive;
+font-size: 100px;
+margin: 25px;
+color:rgb(82, 173, 82);
+}
+*/
+
+.centertext {
+  text-align: center;
+}
+
+title {
+  text-align: center;
+  font-family: ;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #424196;
+}
+
+body {
+font-family: Helvetica, Arial, sans-serif;
+}
+
+p {
+  front-size: 16px;
+  color:brown;
+  font-display: center;
+}
