@@ -73,6 +73,11 @@ margin: auto;
   display: inline;
 }
 
+.doveimage {
+  display: flex;
+  justify-content: center;
+}
+
 h3 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
