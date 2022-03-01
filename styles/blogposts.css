@@ -98,6 +98,14 @@ margin: auto;
    margin: 30px 0px 0px -100px;
 }
 
+#plist {
+  font-family: 'Oswald', sans-serif;
+ /* margin: 20px 0px 30px -350px; */
+  text-decoration: thick;
+  font-size: 35px;
+  color: #3ea3aa;
+}
+
 h3 {
   font-family: 'Oswald', sans-serif;
   text-align: center;
