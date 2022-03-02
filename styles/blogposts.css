@@ -80,6 +80,22 @@ margin: auto;
   justify-content: center;
 }
 
+.h2element {
+  text-align: center;
+  font-size: 33px;
+  font-family: 'Architects Daughter', cursive;
+}
+
+.atag {
+  text-align: center; 
+  font-size: 31px;
+  opacity: 0.8;
+}
+
+.ptag {
+  font-family: 'Architects Daughter', cursive;
+}
+
 #javascriptimages {
   width: 350x;
   height: 350px;
@@ -104,6 +120,13 @@ margin: auto;
   text-decoration: thick;
   font-size: 35px;
   color: #3ea3aa;
+}
+
+#neuroheader {
+  /* font-family: 'Architects Daughter', cursive; */
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Shizuru', cursive;
+  font-size: 40px;
 }
 
 h3 {
