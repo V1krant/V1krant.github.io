@@ -89,7 +89,8 @@ margin: auto;
 .stylehs {
   text-align: center;
   font-size: 25px;
-  font-family: 'Roboto Serif', serif;
+ /* font-family: 'Roboto Serif', serif;*/
+ font-family: 'Supermercado One', cursive;
 }
 
 .atag {
