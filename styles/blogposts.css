@@ -86,6 +86,12 @@ margin: auto;
   font-family: 'Architects Daughter', cursive;
 }
 
+.stylehs {
+  text-align: center;
+  font-size: 25px;
+  font-family: 'Roboto Serif', serif;
+}
+
 .atag {
   text-align: center; 
   font-size: 31px;
