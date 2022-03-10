@@ -14,11 +14,12 @@ var counter = 0;
 var firstCount = 0;
 var random1 = randomNum;
 var random2 = randomNum2;
-
+var audio = new Audio();
+audio.src = "whack-audio.wav";
 
 document.getElementsByTagName("table")[0].rows[random1].cells[random2].innerHTML= '<img src="mole.PNG" width="70" height="70" />';
 document.getElementsByTagName("table")[0].rows[random1].cells[random2].id='IMG';
-const imgCell= document.getElementById("IMG").addEventListener("click", addAMole);
+const imgCell= document.getElementById("IMG").addEventListener("click", timer);
 //const button = document.getElementById("button").addEventListener("click", addAMole);
 
 /*
@@ -28,10 +29,17 @@ if ( firstCount === 0) {
 }
 */
 
+function timer () {
+  audio.play();
+  setInterval(addAMole, 350);
+}
+
 function addAMole () {
+
  // if (counter === 1) {
-console.log('clicked')
+  console.log('clicked')
  // } else {
+ 
   window.location.reload();
 
  // }
